@@ -1,5 +1,6 @@
 #!/bin/sh
-
+## for centos 7 vm on vmware , before running script disable fw and selinux 
+## adjust /etc/hosts with static ip
 
 ## arg $1 what to bootstrap . Possible values: cluster(default), app
 
